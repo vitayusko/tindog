@@ -1,0 +1,155 @@
+/* id */
+#title {background-color: #ff4c68;}
+
+
+/* components  */
+body {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+h1 { 
+    font-family: 'Montserrat-Black', sans-serif;
+    color: white;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+h2{
+font-family: 'Montserrat-Black', sans-serif;
+font-weight: 900;
+font-size: 3rem;
+line-height: 1.5;
+
+}
+ h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+ }
+  h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  h5 {
+    color: white;
+  }
+ p {
+    color: 8f8f8f;
+ }
+/* class */
+
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+
+/* navigation-bar */
+
+.navbar {
+    padding: 0 0 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+font-weight: 100;
+}
+
+
+/* download-buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;   
+}
+
+/* img-title */
+.gradient-background {
+    background: linear-gradient(300deg, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+    .img-title {
+        width: 20%;
+        transform: rotate(25deg);
+        position: absolute;
+        right: 20%;
+    }
+
+
+/* Future section */
+
+#features {
+    background-color: white;
+    padding: 7% 15%;
+position: relative;}
+
+.features-box {
+    text-align: center;
+padding: 5%;
+}
+.icon {
+    color: #ef8172;
+margin-bottom: 1rem;}
+.icon:hover {color: #ff4c68;}
+   
+
+ /*Testimonials */
+
+ #testimonials {
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+ }
+ .testimonial-image {
+    width: 10% ;
+    border-radius: 100% ;
+margin: 20px;}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.PRESS-LOGO {
+    width: 15%;
+margin: 20px 20px 50px;
+}
+
+
+ /*Pricing */
+
+ #pricing {
+    padding: 100px;
+text-align: center;}
+
+.pricing-column {padding: 3% 2%;}
+
